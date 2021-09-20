@@ -47,7 +47,7 @@ Re = 6378;                          % Radius of Earth
 we = (2*pi+2*pi/365.26)/(24*3600);  % Rate of Orbit
 
 %% Data Declaration
-orbittime = 3600;  % how long the satellite is in orbit
+orbittime = 2*3600;  % how long the satellite is in orbit
 lat1 = -12;          % first latitude of the area of interest
 lat2 = 12;          % second latitue of the area of interest
 long1 = 150+180;         % first longitude of the area of interest
